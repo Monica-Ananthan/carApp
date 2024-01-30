@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*custom css*/
+.car-logo{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+.input-group{
+  margin-bottom: 20px;
+  flex-direction: column;
+  text-align: left;
+}
+.input-group>.form-control, .input-group>.form-select{
+  width: auto;
+}
+.input-group label{
+  margin-bottom: 7px;
+}
+.logo-wrap .card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+.logo-wrap .card{
+  cursor: pointer;
+}
+.table th {
+  text-transform: capitalize;
+}
+.view-data a.btn.btn-primary.mb-3{
+  display: none;
+}
+.view-data label {
+  text-transform: capitalize;
+  margin: 10px 0;
+  font-weight: 500;
+  float: inline-start;
+}
+.view-data select{
+  margin-bottom: 12px;
+}

@@ -1,0 +1,15 @@
+{
+    "images": [
+        { "imageUrl": "/images/logo1.png", "label": "Maruti Suzuki" },
+        { "imageUrl": "/images/logo2.png", "label": "Hyundai" },
+        { "imageUrl": "/images/logo3.png", "label": "BMW" },
+        { "imageUrl": "/images/logo4.png", "label": "Renault" },
+        { "imageUrl": "/images/logo5.png", "label": "Honda" },
+        { "imageUrl": "/images/logo6.png", "label": "Tata" },
+        { "imageUrl": "/images/logo7.png", "label": "Ford" },
+        { "imageUrl": "/images/logo8.png", "label": "Volkswagen" },
+        { "imageUrl": "/images/logo9.png", "label": "Mahindra" },
+        { "imageUrl": "/images/logo10.png", "label": "Toyota" },
+        { "imageUrl": "/images/logo11.png", "label": "Mercedes Benz" }
+    ]
+}
